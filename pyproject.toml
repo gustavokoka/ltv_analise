@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "ltv-novo"
+version = "0.1.0"
+description = ""
+authors = [" Gustavo Gonçalves Pedro <gustavo.pedro@delend.finance>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+pandas = "^2.2.2"
+databricks-connect = "14.2.1"
+ipykernel = ">=6.25.1"
+numpy = ">=1.25.2"
+pyarrow = ">=12.0.1"
+matplotlib = ">=3.8.0"
+seaborn = ">=0.13.0"
+statsmodels = ">=0.14.1"
+ipywidgets = ">=8.1.1"
+plotly = ">=5.18.0"
+nbformat = ">=5.9.2"
+dash = ">=2.14.2"
+openpyxl = ">=3.1.2"
+geopandas = ">=0.14.1"
+stldecompose = ">=0.0.5"
+streamlit = ">=1.30.0"
+scikit-learn = ">=1.3.0"
+prophet = ">=1.1.3"
+sagemaker = ">=2.178.0"
+schedule = "^1.2.2"
+geopy = "^2.2.0"
+folium = "^0.17.0"
+neuralprophet = "^0.9.0"
+pmdarima = "^2.0.4"
+skforecast = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
